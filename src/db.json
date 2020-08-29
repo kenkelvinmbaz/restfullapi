@@ -30,20 +30,13 @@
       "id": 4
     },
     {
-      "name": "12",
+      "descricao": "Nike",
+      "valoUnitario": "90",
       "id": 5
     },
     {
-      "name": "",
-      "id": 6
-    },
-    {
-      "name": "ffff",
-      "id": 7
-    },
-    {
-      "descricao": "Nike",
-      "valoUnitario": "200",
+      "descricao": "keneka",
+      "valoUnitario": "230",
       "id": 8
     }
   ],

@@ -1,21 +1,17 @@
 <template>
   <div id="app">
-    <h1>Pedidos</h1>
-    <!-- Tab panes -->
-    <div class="tab-content">
-        <div class="tab-pane container active" id="home">
-            <ul>
-                <li v-for="pedido of pedidos" :key="pedido.id">
-                   {{pedido.id}}
-                    {{pedido.cliente.nome}}
-                   {{pedido.dataEmissao}}
+        <h1>Pedidos</h1>
+        <!-- Tab panes -->
+        <div id="Pedidos" class="tabcontent">
+                <ul>
+                    <li v-for="pedido of pedidos" :key="pedido.id">
+                      {{pedido.id}}
+                      {{pedido.cliente.nome}}
+                      {{pedido.dataEmissao}}
 
-               </li>
-            </ul>
+                  </li>
+                </ul>
         </div>
-    
-    </div>
-  
   </div>
 </template>
 

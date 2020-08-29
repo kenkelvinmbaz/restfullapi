@@ -2,16 +2,14 @@
   <div id="app">
     <h1>Todos</h1>
     <!-- Tab panes -->
-    <div class="tab-content">
-        <div class="tab-pane container active" id="home">
-            <ul>
-                <li v-for="pessoa of pessoas" :key="pessoa.id">
-                   {{pessoa.nome}}
-               </li>
-            </ul>
-        </div>
-    
+    <div id="Home" class="tabcontent">
+        <ul>
+            <li v-for="pessoa of pessoas" :key="pessoa.id">
+                {{pessoa.nome}}
+            </li>
+        </ul> 
     </div>
+  
   
   </div>
 </template>

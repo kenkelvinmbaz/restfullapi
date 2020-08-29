@@ -1,20 +1,16 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
+    <div class="jumbotron text-center" style="margin-top:-57px;">
+       <h1>Bem Vindo a ESCRIBA</h1>
+       <p>Tela de cadastro e Controle de Itens</p>
+    </div>
     <!-- Nav tabs -->
-    <ul class="nav nav-tabs">
-      <li class="nav-item">
-        <a class="nav-link active" data-toggle="tab" href="#home"><router-link to='/' class="active" >Home</router-link></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" data-toggle="tab" href="#menu1"><router-link to='/produtos'>Produtos</router-link></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" data-toggle="tab" href="#menu2"><router-link to='/pedidos'>Pedidos</router-link></a>
-      </li>
-    </ul>
   
-   
+   <ul class="menu">
+      <li title="home"><a href="#" class="home"><router-link to='/' class="active" >home</router-link></a></li>
+      <li title="search"><a href="#" class="search"><router-link to='/produtos'>Produtos</router-link></a></li>
+      <li title="pencil"><a href="#" class="pencil"><router-link to='/pedidos'>Pedidos</router-link></a></li>
+   </ul>
     <router-view />
   </div>
 </template>
@@ -34,6 +30,5 @@
   color: #2c3e50;
   margin-top: 60px;
 }
-
 
 </style>
