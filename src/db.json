@@ -1,0 +1,83 @@
+{
+  "pessoas": [
+    {
+      "id": 1,
+      "nome": "cliente 1",
+      "cpf": "000.000.000-00",
+      "dataNascimento": "1999-12-31"
+    },
+    {
+      "id": 2,
+      "nome": "cliente 2",
+      "cpf": "000.000.001-00",
+      "dataNascimento": "1999-12-31"
+    }
+  ],
+  "produtos": [
+    {
+      "id": 1,
+      "descricao": "produto 1",
+      "valoUnitario": 10
+    },
+    {
+      "id": 2,
+      "descricao": "produto 2",
+      "valoUnitario": 8.88
+    },
+    {
+      "descricao": "produto 3",
+      "valoUnitario": 10,
+      "id": 4
+    },
+    {
+      "name": "12",
+      "id": 5
+    },
+    {
+      "name": "",
+      "id": 6
+    },
+    {
+      "name": "ffff",
+      "id": 7
+    },
+    {
+      "descricao": "Nike",
+      "valoUnitario": "200",
+      "id": 8
+    }
+  ],
+  "pedidos": [
+    {
+      "id": 1,
+      "cliente": {
+        "id": 1,
+        "nome": "cliente 1"
+      },
+      "dataEmissao": "2019-01-01",
+      "valorTotal": 76.64,
+      "itens": [
+        {
+          "id": 1,
+          "produto": {
+            "id": 1,
+            "descricao": "produto 1"
+          },
+          "valor": 10,
+          "quantidade": 5,
+          "subtotal": 50
+        },
+        {
+          "id": 2,
+          "produto": {
+            "id": 2,
+            "descricao": "produto 2"
+          },
+          "valor": 8.88,
+          "quantidade": 3,
+          "subtotal": 26.64
+        }
+      ]
+    }
+  ]
+}
