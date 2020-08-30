@@ -10,11 +10,6 @@ npm install
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
 ### Para rodar o serviço é necessário instalar o json-server:  
 ```
 ➢  npm install -g json-server  Após isso
