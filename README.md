@@ -15,13 +15,13 @@ npm run serve
 npm run build
 ```
 
-### Lints and fixes files
+### Para rodar o serviço é necessário instalar o json-server:  
 ```
-npm run lint
+➢  npm install -g json-server  Após isso
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+### rodar o comando:
+json-server db.json Isso irá disponibilizar uma api REST rodando nos endereços  •  http://localhost:3000/pessoas •  http://localhost:3000/produtos •  http://localhost:3000/pedidos
 
 ## INSTALL Sweet Alert
 npm install -S vue-sweetalert2
@@ -45,3 +45,5 @@ export default {
   },
 };
 </script> 
+
+
